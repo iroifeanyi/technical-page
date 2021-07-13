@@ -1,0 +1,242 @@
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    
+    flex-wrap: wrap;
+    flex-flow: column;
+
+}
+.first-section {
+    background-color: white;
+    float: left;
+    width: 260px;
+    z-index: 9;
+    position: fixed;
+    border-right: 3px solid;
+    height: 100%;
+    font-family: Arial, sans-serif;
+
+}
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f3ecec6e;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.other-section {
+    background-color: white;
+    padding: 10px;
+    float: right;
+    width: calc(100% - 260px) ;
+    opacity: 10;
+    position: relative;
+    padding-top: 20px;
+    
+}
+.nav-bar {
+    font-size: 13px;
+
+}
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.nav-link {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.text {
+    margin-left: ;
+    width: 100%;
+    line-height: 20px;
+    padding: 5px;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+}
+.text-list {
+    width: 100%;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    padding: 5px;
+    margin: 4px;
+    font-size: 14px;
+    
+}
+ul {
+    color: black;
+    margin-left: 80px;
+    line-height: 29px;
+
+}
+.item {
+    margin-left: -35px;
+    display: block;
+    font-size: 14px;
+}
+.p {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.sec {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 5px;
+    max-width: 500%;
+    display: block;
+    
+}
+h3 {
+  display: none; 
+}
+
+@media screen and (max-width: 660px) {
+    .nav-link {
+        display: block;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-top: 1px solid;
+        padding-left: 20px;
+        text-decoration: none;
+        color: black;
+        
+    }
+    .logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        font-size: 25px;
+        font-family: Arial, sans-serif;
+        text-align: center; 
+        font-weight: 500;       
+        
+    }
+    
+    .first-section {
+        background-color: white;
+        top: 0;
+        width: calc(100% - 1px) ;
+        z-index: 6;
+        position: absolute;
+        font-family: Arial, sans-serif;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow-y: auto;
+        overflow-x: hidden;
+        border: none;
+        border-bottom: 2px solid;
+
+    }
+    .fit {
+
+    }
+    .other-section {
+        background-color: white;
+        padding: 10px;
+        width: 100%;
+        opacity: 10;
+        position: relative;
+        padding-left: 5px;
+        padding-top: 20px;
+        overflow: auto;
+
+    }
+    .sec {
+        position: relative;
+        left: 50%;
+        transform: translatex(-50%);
+        padding: 10px;
+        max-width: 500%;
+        display: block;
+    }
+    .nav-bar {
+        border: 2px solid;
+        overflow: auto;
+        max-height: 250px;
+        font-size: 13px;
+    }
+    .text {
+        width: 100%;
+        line-height: 20px;
+        padding: 10px;
+        text-align: left;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 14px;
+    }
+    .text-list {
+        width: 100%;
+        line-height: 20px;
+        text-align: left;
+        display: block;
+        padding: 8px;
+        font-size: 14px;
+        
+    }
+    ul {
+        color: black;
+        margin-left: 50px;
+        line-height: 25px;
+    
+    }
+    .item {
+        margin-left: -35px;
+        display: block;
+        font-size: 14px;
+    }
+    .p {
+        font-size: 22px;
+        font-family: Arial, sans-serif;
+        font-weight: 300;
+        
+    }
+
+    code {
+        display: block;
+        text-align: left;
+        white-space: pre-line;
+        position: relative;
+        word-break: normal;
+        word-wrap: normal;
+        line-height: 2;
+        background-color: #f3ecec6e;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    . {
+        
+    
+    }
+}
