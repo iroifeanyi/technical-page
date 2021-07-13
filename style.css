@@ -66,7 +66,6 @@ code {
     
 }
 .text {
-    margin-left: ;
     width: 100%;
     line-height: 20px;
     padding: 5px;
@@ -153,9 +152,7 @@ h3 {
         overflow-x: hidden;
         border: none;
         border-bottom: 2px solid;
-
-    }
-    .fit {
+    
 
     }
     .other-section {
@@ -235,8 +232,5 @@ h3 {
         margin: 10px;
         border-radius: 5px;
     }
-    . {
-        
     
-    }
 }
